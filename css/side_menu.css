@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+.navigation {
+    background-color: rgba(35,44,57,255);
+    height: 120%;
+    width: 300pt;
+    font-family: 'Source Code Pro', serif;
+}
+
+.navigation_menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.navigation_menu .photo {
+    border-radius: 50%;
+    max-width: 150pt;
+    max-height: 150pt;
+    margin-top: 40pt;
+    align-self: center;
+}
+
+.contact_me, .contacts{
+    color: rgba(255,255,255,255);
+    justify-content: flex-end;
+    margin-left: 40pt;
+    width: 150pt;
+    font-size: 12pt;
+}
+
+.contact_me {
+    text-transform: uppercase;
+    font-size: 17pt;
+    margin-top: 40pt;
+    margin-bottom: 10pt;
+}
+
+.contacts {
+    margin-top: 10pt;
+    display: flex;
+    justify-content: flex-start;
+
+    background: linear-gradient(to right, rgba(255,255,255,255) 50%, rgba(35,44,57,255) 50%);
+    border-radius: 10pt;
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+}
+
+.contacts img {
+    background-color: rgba(255,255,255,255);
+    border-radius: 50%;
+    
+}
+
+.contacts small{
+    font-size: 12pt;
+    margin-left: 8pt;
+}
+
+.navigation_menu hr {
+    margin-top: 40pt;
+    width: 150pt;
+}
+
+.contacts:hover {
+    background-position: left bottom;
+    color: rgba(35,44,57,255);
+    opacity: 0.9;
+}
+
+

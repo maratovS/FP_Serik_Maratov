@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+.main_page {
+    background-color: rgba(255,255,255,255);
+    height: 120%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Source Code Pro', serif;
+}
+
+.main_page .name {
+    font-size: 30pt;
+    margin-top: 100pt;
+    color: rgba(35,44,57,255);
+    margin-left: 40pt;
+    
+}
+
+.main_page .specialization {
+    font-size: 25pt;
+    color: rgba(98,98,98,255);
+    margin-left: 40pt;
+    margin-bottom: 60pt;
+    text-transform: uppercase;
+}
+
+.work_experience {
+    margin-left: 40pt;
+    display: flex;
+    flex-direction: column;
+}
+
+.work_experience .work_experience_title {
+    font-size: 20pt;
+    color: rgba(35,44,57,255);
+}
+
+.work_experience .work_experience_subtitle {
+    color: rgba(117,145,188,255);
+    font-size: 20pt;
+}
+
+.work_experience .work_experience_date {
+    color: rgba(188,188,188,255);
+    font-size: 12pt;
+}
+
+.work_experience ul {
+    color: rgba(98,98,98,255);
+    font-size: 12pt;
+    width: 500pt;
+}
+
+.work_experience li {
+    margin: 10pt;
+}
+
+.education {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50pt;
+    margin-left: 40pt;
+}
+
+.education .education_title {
+    font-size: 25pt;
+    color: rgba(98,98,98,255);
+    margin-bottom: 40pt;
+    text-transform: uppercase;
+}
+
+.education .education_place {
+    font-size: 20pt;
+    color: rgba(98,98,98,255);
+}
+
+.education .education_spec {
+    margin-top: 20pt;
+    color: rgba(117,145,188,255);
+}
+
+.education .education_date {
+    color: rgba(188,188,188,255);
+}
