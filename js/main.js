@@ -5,7 +5,7 @@ while(true){
             alert("insert something")
             break
         default:
-            if (input.split("").reverse().join("") == input) {
+            if (input.toUpperCase().split("").reverse().join("") == input.toUpperCase()) {
                 alert("palindrome printed")
             } else {
                 alert("not a palindrome printed")
