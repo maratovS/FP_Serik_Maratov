@@ -59,7 +59,7 @@ function calculate(firstOperand, secondOperand, operator) {
     } else if (operator === '/') {
         return firstOperand / secondOperand;
     } else if (operator === 'sqrt') {
-        return Math.sqrt(firstOperand);
+        return Math.pow(firstOperand, 1/secondOperand);
     } else if (operator === 'pow') {
         return Math.pow(firstOperand, secondOperand);
     }
