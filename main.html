@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="./css/side_menu.css">
     <link rel="stylesheet" href="./css/main_page.css">
     <link rel="stylesheet" href="./css/page.css">
+    <link rel="stylesheet" href="./css/feedback.css">
   </head>
 
   <body>
@@ -42,6 +43,27 @@
                 <small class="contacts">Armored horse</small>
                 <small class="contacts">Machine gun</small>
                 <small class="contacts">Suicide belt</small>
+                <hr>
+                <b class="contact_me">Feedback</b>
+                <small class="contacts" id="send_feedback">Send feedback</small>
+                <div id="feedback_modal" class="modal">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <b>Feedback form</b>
+                            <span class="close">&#88;</span>
+                        </div>
+                        <div class="modal-body" id="modal-body">
+                            <input type="text" id="name_field" placeholder="Name" required ><br>
+                            <input type="text" id="surname_field" placeholder="Surname" required><br>
+                            <input type="email" id="email_field" placeholder="your_email@gmail.com" required><br>
+                            <input type="text" id="phone_number" placeholder="+X(XXX)XX-XX-XXX" required><br>
+                            <textarea id="message_field" rows="10" cols="45" name="text" placeholder="Message"></textarea>
+                        </div>
+                        <div class="modal-footer">
+                            <input type="button" id="send_form" value="Send">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="main_page">
@@ -76,5 +98,6 @@
     </div>
     <footer>
     </footer>
+    <script src="./js/feedback.js"></script>
   </body>
 </html>
