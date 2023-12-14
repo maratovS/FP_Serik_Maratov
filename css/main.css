@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Silkscreen');
+
+body {
+    background-image: linear-gradient(to top right, #480e57, #5aa2ff);
+  }
+
+.main_window {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 300pt;
+    background-color: rgba(255, 255, 255, 0.171);
+    border-radius: 10pt;
+}
+
+#button {
+    width: 140pt;
+    align-self: center;
+    height: 30pt;
+    border-radius: 5pt;
+    border-style: none;
+    font-size: 15pt;
+    margin: 20pt;
+    opacity: 0.95;
+    font-family: 'Silkscreen';
+}
+
+#button:hover {
+    opacity: 1;
+    transition: 0.2s;
+    scale: 1.1;
+    box-shadow: 5px 5px 5px 1px black;
+}
+
+#button:active {
+    scale: 1;
+    box-shadow: 2px 2px 2px 1px black;
+}
+#input_field {
+    margin: 20pt;
+    height: 20pt;
+    font-size: 15pt;
+    border-radius: 0pt;
+    border-style: none;
+    border-bottom: solid;
+    background-color: rgba(255, 255, 255, 0);
+    font-family: 'Silkscreen';
+}
+
+#input_field:focus {
+    outline: none;
+}
+
+#input_field::placeholder {
+    color: beige;
+}
+
+.block img {
+    position: relative; 
+    width: 30pt;
+    height: 30pt;
+    margin-left: 235pt;
+    margin-top: -33pt;
+}
+
+.block {
+    font-family: 'Silkscreen';
+    margin-left: 20pt;
+    margin-bottom: 10pt;
+}
